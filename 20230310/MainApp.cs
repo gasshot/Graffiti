@@ -4,7 +4,7 @@ namespace _20230310
 {
     class MainApp
     {
-        
+
         static void Main(string[] args)
         {
 
