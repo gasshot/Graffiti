@@ -19,20 +19,10 @@ namespace p151_ex5
             int x = int.Parse(a);
             int y = int.Parse(b);
             int z = int.Parse(c);
-            
 
             var list = new List<int> { x, y, z };
 
-
-
-
-
-
-            //Console.WriteLine($"입력하신 {x},{y},{z}중 최대값은 {}이며, 최소값은 {}입니다.");
-
             Console.WriteLine($"입력하신 {x},{y},{z}중 최대값은 {list.Max()}이며, 최소값은 {list.Min()}입니다.");
-
-            //int max = Math.Max(x,y,z);
 
         }
     }
