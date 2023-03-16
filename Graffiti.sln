@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "p151_ex5-1", "p151_ex5-1\p1
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForFor", "ForFor\ForFor.csproj", "{657D9AB5-D6A1-49D7-ABE1-60F88D3B611C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Diamond", "Diamond\Diamond.csproj", "{36C66F4F-1A4B-4AF6-A40A-A52D80EE66A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiChar", "MultiChar\MultiChar.csproj", "{E288C77F-BDA8-4051-93B9-96DF7CD6E66F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,14 @@ Global
 		{657D9AB5-D6A1-49D7-ABE1-60F88D3B611C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{657D9AB5-D6A1-49D7-ABE1-60F88D3B611C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{657D9AB5-D6A1-49D7-ABE1-60F88D3B611C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36C66F4F-1A4B-4AF6-A40A-A52D80EE66A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36C66F4F-1A4B-4AF6-A40A-A52D80EE66A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36C66F4F-1A4B-4AF6-A40A-A52D80EE66A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36C66F4F-1A4B-4AF6-A40A-A52D80EE66A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E288C77F-BDA8-4051-93B9-96DF7CD6E66F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E288C77F-BDA8-4051-93B9-96DF7CD6E66F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E288C77F-BDA8-4051-93B9-96DF7CD6E66F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E288C77F-BDA8-4051-93B9-96DF7CD6E66F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
