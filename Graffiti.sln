@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiChar", "MultiChar\Mult
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hourglass", "Hourglass\Hourglass.csproj", "{6FCA2E74-91F5-4262-9FFA-CCCCD0616A6A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Diamond2", "Diamond2\Diamond2.csproj", "{0780A33F-AD19-46E9-8982-08AD0F1917C6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{6FCA2E74-91F5-4262-9FFA-CCCCD0616A6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6FCA2E74-91F5-4262-9FFA-CCCCD0616A6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6FCA2E74-91F5-4262-9FFA-CCCCD0616A6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0780A33F-AD19-46E9-8982-08AD0F1917C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0780A33F-AD19-46E9-8982-08AD0F1917C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0780A33F-AD19-46E9-8982-08AD0F1917C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0780A33F-AD19-46E9-8982-08AD0F1917C6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -9,7 +9,7 @@ namespace p151_ex4
             Console.Write("정수 한개를 입력하세요. : ");
             string input = Console.ReadLine();
             //int output = int.Parse(input);
-            bool chk = int.TryParse(input , out int output);
+            bool chk = int.TryParse(input, out int output);
             if (!chk)
             {
                 Console.WriteLine("정수를 입력하세요.");
