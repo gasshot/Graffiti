@@ -16,7 +16,6 @@ namespace p151_ex4
                 return;
             }
 
-
             string a;
 
             if (input == "0")
@@ -24,7 +23,6 @@ namespace p151_ex4
                 Console.WriteLine("0은 모든 수의 배수입니다.");
                 return;
             }
-
 
             a = output % 3 == 0 ? "입" : "가 아닙";
 
