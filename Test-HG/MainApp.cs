@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Test_dia
+namespace Test_HG
 {
     class MainApp
     {

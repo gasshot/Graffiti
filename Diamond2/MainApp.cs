@@ -15,7 +15,6 @@ namespace Diamond2
                 Console.WriteLine("짝수를 입력하세요.");
                 return;
             }
-
             for (int c = 0; c < o + 1; c++) // 01234
             {
                 if (c < (o / 2))
@@ -58,7 +57,6 @@ namespace Diamond2
                     }
                     Console.WriteLine($" - {c + 1}");
                 }
-
             }
             Console.WriteLine($"\n{o + 1} * {o + 1} 2차원 모래시계.");
             Console.WriteLine($"{(o / 2) + 1}번 라인은 모래시계 중심.");
