@@ -49,14 +49,14 @@ namespace _20230310
                     }
                     Console.WriteLine();
                 }
-                if (c > i / 2 && c<i+1)
+                if (c > i / 2 && c < i + 1)
                 {
-                    for (int b = 0; b < c - i/2; b++)
+                    for (int b = 0; b < c - i / 2; b++)
                     {
                         Console.Write("o");
                     }
 
-                    for (int s = 0; s < 2 * (i-c)+1; s++)
+                    for (int s = 0; s < 2 * (i - c) + 1; s++)
                     {
                         Console.Write("*");
                     }

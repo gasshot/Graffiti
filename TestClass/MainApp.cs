@@ -4,7 +4,7 @@ namespace TestClass
 {
     public class TestClass
     {
-        public void Divider(int a, int b,out int quotient,out int reminder)
+        public void Divider(int a, int b, out int quotient, out int reminder)
         {
             quotient = a / b;
             reminder = a % b;
@@ -29,7 +29,7 @@ namespace TestClass
             int z = 10;
 
             TestClass show = new TestClass();
-            show.Divider(x, y,out int i,out int f);
+            show.Divider(x, y, out int i, out int f);
 
             Console.WriteLine(i);
             Console.WriteLine(f);
