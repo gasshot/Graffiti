@@ -15,20 +15,21 @@ namespace Static
 
     class MainApp
     {
-        static int x;
+        static int x;   //몬스터체력
 
-        public void Add()
+        static void Add()
         {
-            static int a = 0;
+            int a = 0;
             Console.WriteLine(a++);
         }
 
-        public void Main(string[] args)
+        static void Main(string[] args)
         {
             for (int i = 0; i < 5; i++)
             {
                 //AddPlus add = new AddPlus();
-                Add();
+                // Add();
+                Console.WriteLine(i);
             }
         }
     }
