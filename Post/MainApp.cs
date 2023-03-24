@@ -7,7 +7,7 @@ namespace Post
         static int x = 100;
         static int y = 223;
         static int z = 564;
-        int e =1253;
+        int e = 1253;
 
         //변수를 선언하고 처음으로 값을 저장하는 것을 '변수의 초기화'라고 한다.
         //멤버변수는 초기화를 하지 않아도 자동적으로 변수의 자료형에 맞는 기본값으로 초기화가 이루어지지만 지역변수는 사용하기 전에 반드시 초기화해야 한다.
@@ -18,10 +18,10 @@ namespace Post
         //정적(Static) 변수는 프로그램이 시작될 때 생성 및 초기화 되고 프로그램이 끝날 때 사라진다. 
         public int Star()
         {
-            int a=356;
-            return a+e;
+            int a = 356;
+            return a + e;
         }
-      
+
         static void Main(string[] args)
         {
             MainApp q = new MainApp();

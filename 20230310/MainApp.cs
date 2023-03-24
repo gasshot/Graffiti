@@ -2,72 +2,36 @@
 
 namespace _20230310
 {
+    class Calculator
+    {
+        public void Divider(int a, int b, ref int quotient, ref int reminder)
+        {
+            quotient = a / b;
+            reminder = a % b;
+        }
+    }
+
     class MainApp
     {
 
         static void Main(string[] args)
         {
-            Console.Write("원하는 짝수를 입력하세요. : ");
+            Console.Write("첫번째 정수 :");
             string input = Console.ReadLine();
-            bool chk = int.TryParse(input, out int i);
+            Console.Write("두번째 정수 :");
+            string byin = Console.ReadLine();
 
-            for (int c = 0; c < i + 1; c++) // 01234
-            {
-                if (c < i / 2)
-                {
-                    for (int b = 0; b < i / 2 - c; b++)
-                    {
-                        Console.Write("o");
-                    }
+            int output = Convert.ToInt32(input);
+            int byout = Convert.ToInt32(byin);
+            int x = output;
+            int y = byout;
+            int q = 0;
+            int r = 0;
 
-                    for (int s = 0; s < 2 * c + 1; s++)
-                    {
-                        Console.Write("*");
-                    }
+            Calculator cal = new Calculator();
+            cal.Divider(x, y, ref q, ref r);
 
-                    for (int b = 0; b < i / 2 - c; b++)
-                    {
-                        Console.Write("o");
-                    }
-                    Console.WriteLine();
-                }
-                if (c == i / 2)
-                {
-                    for (int b = 0; b < i / 2 - c; b++)
-                    {
-                        Console.Write("o");
-                    }
-
-                    for (int s = 0; s < 2 * c + 1; s++)
-                    {
-                        Console.Write("*");
-                    }
-
-                    for (int b = 0; b < i / 2 - c; b++)
-                    {
-                        Console.Write("o");
-                    }
-                    Console.WriteLine();
-                }
-                if (c > i / 2 && c < i + 1)
-                {
-                    for (int b = 0; b < c - i / 2; b++)
-                    {
-                        Console.Write("o");
-                    }
-
-                    for (int s = 0; s < 2 * (i - c) + 1; s++)
-                    {
-                        Console.Write("*");
-                    }
-
-                    for (int b = 0; b < c - i / 2; b++)
-                    {
-                        Console.Write("o");
-                    }
-                    Console.WriteLine();
-                }
-            }
+            Console.WriteLine($"{x}/{y}의 몫 : {q}, 나머지 : {r}");
         }
     }
 }
