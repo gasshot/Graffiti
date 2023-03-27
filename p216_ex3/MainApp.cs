@@ -19,9 +19,9 @@ namespace p216_ex3
             int y = 4;
             double i = 2.4;
             double j = 3.1;
-      
-            Console.WriteLine($"{x}+{y} = {Plus(x,y)}");
-            Console.WriteLine($"{i}+{j} = {Plus(i,j)}");
+
+            Console.WriteLine($"{x}+{y} = {Plus(x, y)}");
+            Console.WriteLine($"{i}+{j} = {Plus(i, j)}");
         }
     }
 }
