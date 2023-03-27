@@ -85,19 +85,16 @@ namespace Subject
 
         static void Main(string[] args)
         {
-            int y = 5;
             int z = 5;
             int[] k = CardNumber(z);
-            int[] f = FigureNumber(y);
+            int[] f = FigureNumber(z);
             
             for (int i = 0; i < z; i++)
             {
-                Console.WriteLine(k[i]);
+                MainApp merge = new MainApp();
+                Console.WriteLine(merge.Merge(k[i],f[i]));
             }
-            for (int i = 0; i < y; i++)
-            {
-                Console.WriteLine(f[i]);
-            }
+
 
         }
     }
