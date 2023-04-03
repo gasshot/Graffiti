@@ -18,6 +18,7 @@ namespace TestClass
             int a = c;
             return Fibonacci(a - 1) + Fibonacci(a - 2);
         }
+
     }
 
     class MainApp
@@ -34,9 +35,13 @@ namespace TestClass
             Console.WriteLine(i);
             Console.WriteLine(f);
             Console.WriteLine(i + f);
+            Console.WriteLine("\nStarting Fibonacci");
 
             TestClass fibo = new TestClass();
-            Console.WriteLine(fibo.Fibonacci(z));
+            for (int t = 0; t < z + 1; t++)
+            {
+                Console.WriteLine(t*(fibo.Fibonacci(t)));
+            }
         }
     }
 }
